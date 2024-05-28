@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Repository.Entities;
+namespace Service.Model;
 
 public class Contact
 {
@@ -10,4 +10,6 @@ public class Contact
     public string AddressDelivery { get; set; } = null!;
 
     public string PhoneNumberDelivery { get; set; } = null!;
+
+
 }

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Repository.Entities;
+namespace Service.Model;
 
-public  class Warranty
+public class Warranty
 {
     public int WarrantyId { get; set; }
 
@@ -18,4 +18,5 @@ public  class Warranty
     public string? Instance { get; set; }
 
     public bool WarrantyStatus { get; set; }
+
 }

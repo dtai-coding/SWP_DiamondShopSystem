@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Repository.Entities;
+namespace Service.Model;
 
-public class ProductGem
+public  class ProductGem
 {
     public int? ProductId { get; set; }
 

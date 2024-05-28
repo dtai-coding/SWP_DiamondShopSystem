@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Repository.Entities;
-
+namespace Service.Model;
 public class Gem
 {
     public int GemId { get; set; }
@@ -24,4 +23,5 @@ public class Gem
     public string? Fluorescence { get; set; }
 
     public bool Active { get; set; }
+
 }

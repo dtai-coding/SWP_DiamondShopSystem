@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Repository.Entities;
+namespace Service.Model;
 
-public  class FeedBack
+public class FeedBack
 {
     public int FeedbackId { get; set; }
 

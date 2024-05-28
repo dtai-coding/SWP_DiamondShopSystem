@@ -14,6 +14,12 @@ namespace Service
 
         public List<ProductCategory> GetAllProductCate() => _repo.GetAll();
 
-        public ProductCategory? GetAProductCate(int id) => _repo.GetById(id);
+        public List<ProductCategory> SreachProductCate(string keyword) 
+            => _repo.GetAll().Where(x => x.CategoryId.ToString().Contains(keyword.ToLower())  ||
+                                         x.CategoryName.ToLower().Contains(keyword.ToLower())).ToList();
+
+        public ProductCategory? GetProductCate(int id) => _repo.GetById(id);
+
+        public void UpdateProductCate(ProductCategory category) => _repo.Update(category);
     }
 }

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Repository.Entities;
+namespace Service.Model;
 
 public  class MaterialPriceList
 {
@@ -15,5 +15,4 @@ public  class MaterialPriceList
 
     public DateOnly EffDate { get; set; }
 
- 
 }

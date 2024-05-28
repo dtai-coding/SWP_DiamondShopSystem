@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Repository.Entities;
+namespace Service.Model;
 
 public class Role
 {
@@ -9,4 +9,4 @@ public class Role
 
     public string RoleName { get; set; } = null!;
 
- }
+}

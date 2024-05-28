@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Repository.Entities;
+namespace Service.Model;
 
-public class OrderDetail
+public  class OrderDetail
 {
     public int OrderDetailId { get; set; }
 
@@ -16,4 +16,5 @@ public class OrderDetail
     public decimal Price { get; set; }
 
     public string? NiSize { get; set; }
+
 }
